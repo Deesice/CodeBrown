@@ -112,4 +112,8 @@ public class Button : MonoBehaviour, IPointerDownHandler, IPointerEnterHandler, 
     {
         GameManager.Instance.firstLaunch = false;
     }
+    public void ShowIS()
+    {
+        InterAd.ShowAd(null);
+    }
 }
