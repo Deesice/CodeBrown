@@ -5,6 +5,7 @@ using UnityEngine.Events;
 
 public class InteractObject : MonoBehaviour
 {
+    const float ICON_SIZE = 2;
     public enum TypeOfInteract { Door, Dialog, Other, Toilet, Skillcheck };
     public TypeOfInteract type;
     public Transform iconPosition;
@@ -152,7 +153,7 @@ public class InteractObject : MonoBehaviour
         player.GetComponent<PlayerController>().focusedItem = gameObject;
         iconInstance = Instantiate(icons[(int)type], iconPosition.position, icons[(int)type].transform.rotation);
         iconInstance.transform.localScale = new Vector3 (Mathf.Abs(transform.lossyScale.x), Mathf.Abs(transform.lossyScale.y), Mathf.Abs(transform.lossyScale.z));
-        iconInstance.transform.localScale *= iconPosition.localScale.y;
+        iconInstance.transform.localScale *= iconPosition.localScale.y * ICON_SIZE;       
 
     }
 
