@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!181963792 &2655988077585873504
+Preset:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Steps
+  m_TargetType:
+    m_NativeTypeID: 114
+    m_ManagedTypePPtr: {fileID: 11500000, guid: 0698f6155025f47478ec181be480a48c,
+      type: 3}
+    m_ManagedTypeFallback: 
+  m_Properties:
+  - target: {fileID: 0}
+    propertyPath: m_Enabled
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_EditorHideFlags
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_EditorClassIdentifier
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: timeToStep
+    value: 0.3
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: clips.Array.size
+    value: 5
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: clips.Array.data[0]
+    value: 
+    objectReference: {fileID: 8300000, guid: d37149c63286bc64781a20c4c5b84e08, type: 3}
+  - target: {fileID: 0}
+    propertyPath: clips.Array.data[1]
+    value: 
+    objectReference: {fileID: 8300000, guid: f693e584039910048a7aa679a34d5a1e, type: 3}
+  - target: {fileID: 0}
+    propertyPath: clips.Array.data[2]
+    value: 
+    objectReference: {fileID: 8300000, guid: 930355620d8177c4ebd187cc33747947, type: 3}
+  - target: {fileID: 0}
+    propertyPath: clips.Array.data[3]
+    value: 
+    objectReference: {fileID: 8300000, guid: eedccc5c35e937d4d8e44603cf3d7cf1, type: 3}
+  - target: {fileID: 0}
+    propertyPath: clips.Array.data[4]
+    value: 
+    objectReference: {fileID: 8300000, guid: 2b2c534b782be994c8ae9468f46f6c18, type: 3}
+  - target: {fileID: 0}
+    propertyPath: mixer
+    value: 
+    objectReference: {fileID: 24100000, guid: ad68aebfbfe54fc4aa1062b0c97121f6, type: 2}
